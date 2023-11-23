@@ -13,7 +13,7 @@ function Analytics() {
                     Join us on a journey of discovery and enhance your understanding with the guidance of seasoned
                     mentors.</p>
                     <div className="text-center md:text-start">
-                        <button className='border-2 border-black hover:bg-black hover:text-white w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black del duration-200'>Discover More</button>
+                        <button className='border-2 border-black hover:bg-blue-900 hover:border-blue-900 hover:text-white w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black del duration-200'>Discover More</button>
                     </div>
                 </div>
             </div>
