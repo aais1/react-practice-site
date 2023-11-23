@@ -8,7 +8,7 @@ const Newsletter = () => {
                 <p className="text-xl">Subscribe to our newsletter for the latest updates.</p>
             </div>
             <div className="flex flex-col gap-2 md:flex-row justify-center">
-                <input className="h-12 w-96 p-2 rounded-tl rounded-bl text-black " type="text" placeholder="Enter your email address"/>
+                <input className="h-12 w-[50vw] p-2 rounded-tl rounded-bl text-black md:w-72 " type="text" placeholder="Enter your email address"/>
                 <button className="bg-red-600 text-white rounded-tr rounded-br px-3 py-2 hover:bg-red-800">Subscribe</button>
             </div>
         </div>

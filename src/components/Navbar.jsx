@@ -19,7 +19,7 @@ const Navbar = () => {
         <li className='m-3 py-1 px-2 hover:cursor-pointer hover:underline'>About</li>
         <li className='m-3 py-1 px-2 hover:cursor-pointer hover:underline'>Contact</li>
       </ul>
-      <div onClick={handleNav} className='text-red-600 block border-2 border-black rounded-lg p-2 fixed right-10 top-7 md:hidden lg:hidden z-20 hover:cursor-pointer hover:scale-105 duration-200 active:border-white active:text-white'>
+      <div onClick={handleNav} className='text-green-900 block border-2 border-black rounded-lg p-2 fixed right-10 top-7 md:hidden lg:hidden z-20 hover:cursor-pointer hover:scale-105 duration-200 active:border-white active:text-white'>
           {nav ? <AiOutlineClose size={30}/> : <AiOutlineMenu size={30} />}
       </div>
       <ul className= {nav ? 'z-10 fixed left-0 top-0 w-[100%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-200' : 'z-10 ease-in-out w-[100%] duration-200 h-screen fixed left-[-1400px]  top-0 '}>

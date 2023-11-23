@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import './App.css'
 import Analytics from './components/Analytics' 
 import Newsletter from './components/Newsletter'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
      <Hero/>
      <Analytics/>
      <Newsletter/>
+     <hr className='h-[10px] bg-gray-700 border-none '/>
+     <Footer/>
     </>
   )
 }
