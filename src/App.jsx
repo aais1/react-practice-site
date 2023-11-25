@@ -4,6 +4,7 @@ import './App.css'
 import Analytics from './components/Analytics' 
 import Newsletter from './components/Newsletter'
 import Footer from './components/Footer'
+import Plans from './components/Plans'
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
      <Hero/>
      <Analytics/>
      <Newsletter/>
-     <hr className='h-[10px] bg-gray-700 border-none '/>
+     <Plans/>
      <Footer/>
     </>
   )
