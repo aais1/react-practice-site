@@ -1,9 +1,10 @@
+import Laptop from '../assets/laptop.jpg'
 
 function Analytics() {
     return (
         <div className='bg-white  p-14'>
             <div className="flex flex-col w-[80vw] mx-auto gap-32 items-center md:flex-row">
-                <img src="src/assets/laptop.jpg" alt="Laptop" className="md:w-[350px] w-[430px]"/>
+                <img src={Laptop} alt="Laptop" className="md:w-[350px] w-[430px]"/>
                 <div className=" ">
                     <p className='text-blue-500 text-4xl my-4 font-bold'>Learn From Experts</p>
                     <p className='font-medium'>Explore the fascinating world of knowledge and skill acquisition.
