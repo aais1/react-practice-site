@@ -2,8 +2,8 @@
 const Footer = () => {
     return (
         <footer className="bg-blue-900">
-            <div className=" w-[80vw] mx-auto pt-10">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className=" w-[80vw] mx-auto p-10 ">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-center mt-5">
                     <div>
                         <h2 className="text-white font-bold">About Us</h2>
                         <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -22,7 +22,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex justify-center mt-4">
+                <div className="flex justify-center mt-2">
                     <a href="#" className="text-white mx-2">Email</a>
                     <a href="#" className="text-white mx-2">Facebook</a>
                     <a href="#" className="text-white mx-2">Twitter</a>
